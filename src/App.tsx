@@ -1,7 +1,7 @@
-import Heading from './components/Heading/Heading';
+import Heading from '../Estudo/Body/Heading';
 import './styles/global.css';
 import './styles/theme.css';
-import Body from './components/Body/Body';
+import Body from '../Estudo/Body/Body';
 
 function App() {
   return (
