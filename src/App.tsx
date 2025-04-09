@@ -1,5 +1,19 @@
+import Heading from './components/Heading/Heading';
+import './styles/global.css';
+import './styles/theme.css';
+import Body from './components/Body/Body';
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Heading
+        title="Olá, Mundo!"
+        description="Bem-vindo ao Chronos Pomodoro"
+      />
+      <Body>Olá Mundo</Body>
+      <Body>Olá Mundo 2</Body>
+    </>
+  );
 }
 
 export default App;

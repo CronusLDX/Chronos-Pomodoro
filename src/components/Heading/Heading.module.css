@@ -1,0 +1,13 @@
+.heading {
+  background-color: var(--gray-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.title {
+  color: var(--text-over-primary-dark);
+  padding: 5px 5px 5px 5px;
+  font-weight: var(--font-weight-regular);
+}
