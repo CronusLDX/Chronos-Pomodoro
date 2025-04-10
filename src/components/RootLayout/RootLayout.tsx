@@ -10,7 +10,9 @@ export const RootLayout: React.FC = () => {
     <section className={styles.container}>
       <Logo />
       <Menu />
-      <Outlet />
+      <div className={styles.outlet}>
+        <Outlet />
+      </div>
       <Footer />
     </section>
   );
