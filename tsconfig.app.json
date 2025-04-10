@@ -22,5 +22,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "Estudo/Body"]
+  "include": ["src", "Estudo/Body", "Estudo/Heading/Heading.tsx"]
 }

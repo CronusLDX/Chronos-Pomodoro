@@ -1,17 +1,11 @@
-import Heading from '../Estudo/Body/Heading';
 import './styles/global.css';
 import './styles/theme.css';
-import Body from '../Estudo/Body/Body';
-
+import { routes } from './Routes/Routes';
+import { RouterProvider } from 'react-router-dom';
 function App() {
   return (
     <>
-      <Heading
-        title="Olá, Mundo!"
-        description="Bem-vindo ao Chronos Pomodoro"
-      />
-      <Body>Olá Mundo</Body>
-      <Body>Olá Mundo 2</Body>
+      <RouterProvider router={routes}></RouterProvider>
     </>
   );
 }

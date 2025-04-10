@@ -1,0 +1,25 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1.6rem 0 1.6rem 0;
+  gap: 2.4rem;
+}
+.title {
+  color: var(--text-over-primary-dark);
+  font-weight: var(--font-weight-medium);
+}
+
+.button {
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  background-color: #cf0202;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  color: var(--text-over-primary-dark);
+}
+
+.button:hover {
+  background-color: var(--gray-600);
+}
